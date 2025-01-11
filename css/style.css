@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #E7EEFF;
+}
+.logoAndSearch{
+    display: flex;
+    gap: 25px;
+    margin-left: 28px;
+}
+.searchLayout{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+}
+.profileBox span{
+    color: #5E6577;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+}
+.searchLayout input{
+    line-height: 28px;
+    border: none;
+    width: 100%;
+    background-color: #E7EEFF;
+}
+.searchLayout input::placeholder{
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+}
+.profileBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+aside{
+max-width: 100px;
+background-color: #E7EEFF;
+width: 100%;
+}
+.asideBar{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+}
+.mainDiv{
+    display: flex;
+}
+.propertyBox{
+    border-radius: 16px;
+background-color: #E7EEFF;
+padding: 8px 24px 8px 12px;
+display: flex;
+gap: 12px;
+align-items: center;
+}
+.propertyBox span{
+    color: #323232;
+font-size: 16px;
+line-height: 28px;
+}
+main{
+    flex-grow: 1;
+    margin: 40px 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mainProperties{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.offerCardTitle :first-child{
+    color: #000;
+    font-size: 18px;
+    line-height: 30px;
+}
+.offerCardTitle :last-child{
+    color: #606060;
+    font-size: 14px;
+    line-height: 30px; 
+}
+.offerCardBox{
+    border-radius: 24px;
+background-color: #E7EEFF;
+flex-basis: content;
+}
+.offerCardTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+.offerCardsConteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+}
