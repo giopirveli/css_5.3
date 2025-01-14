@@ -18,8 +18,6 @@ header{
     display: flex;
     gap: 12px;
     align-items: center;
-    max-width: 350px;
-    width: 100%;
 }
 .profileBox span{
     color: #5E6577;
@@ -30,7 +28,7 @@ line-height: 24px;
 .searchLayout input{
     line-height: 28px;
     border: none;
-    width: 100%;
+    width: 290px;
     background-color: #E7EEFF;
 }
 .searchLayout input::placeholder{
