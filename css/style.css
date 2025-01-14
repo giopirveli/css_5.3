@@ -94,7 +94,11 @@ main{
 .offerCardBox{
     border-radius: 24px;
 background-color: #E7EEFF;
-flex-basis: content;
+max-width: 340px;
+width: 100%;
+}
+.offerCardBox img{
+    width: 100%;
 }
 .offerCardTitle{
     display: flex;
@@ -105,5 +109,5 @@ flex-basis: content;
 .offerCardsConteiner{
     display: flex;
     flex-wrap: wrap;
-    gap: 42px;
+    gap: 40px;
 }
